@@ -1,5 +1,5 @@
 pipeline{
-   agent{label 'user'}
+   agent any
    
    stages{
       stage('Checkout Stage'){
